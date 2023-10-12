@@ -41,7 +41,15 @@ function App() {
       <Expense  title={expenses[3].title} 
              amount={expenses[3].amount}
              date={expenses[3].date}></Expense>
-     
+      
+      {/* {expenses.map((expense) => (
+        <Expense
+          key={expense.id} // It's important to provide a unique key when rendering a list of components.
+          title={expense.title}
+          amount={expense.amount}
+          date={expense.date}
+        />
+      ))} */}
     </div>
   );
 }
